@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sqlite playground</title>
+  <style>
+    html, body {
+      margin: 0;
+    }
+    #root {
+      overflow: hidden;
+    }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+    color: white;
+  }
+  h1, h1 a:link, h1 a:visited, h2, h3, h4, h5, h6, h2 a:link, h3 a:link, h2 a:visited, h3 a:visited, aside h3, .left_col h3, .right_col h3, .table-of-contents a:link {
+    color: #CCC;
+  }
+  header{
+    background-color: #E6E6E6;
+  }
+  ins,img{
+    filter: brightness(95%);
+  }
+  #container, .comment{
+    filter: brightness(90%);
+  }
+  footer,#page_content,#sidebar {
+    background-color: #333;
+    color: #fff;
+  }
+  .topic_path, .lead, ul.table-of-contents,.table th,.index,.rel {
+    background-color: #444;
+    color: #fff;
+  }
+  a:link {
+    color: #99CCFF;
+  }
+  a:visited {
+    color: #3399FF;
+  }
+}
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="./index.tsx" type="module"></script>
+</body>
+</html>
